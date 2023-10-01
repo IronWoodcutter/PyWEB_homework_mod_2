@@ -3,7 +3,7 @@ from itertools import zip_longest
 import AddressBook as ab
 import sort_folder as sf
 import notebook as nb
-from  abstractclasses import AbstractMenuBook
+from abstractclasses import AbstractMenuBook
 
 address_book = ab.AddressBook.read_adress_book_from_file()
 
